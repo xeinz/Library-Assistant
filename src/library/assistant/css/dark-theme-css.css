@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 24, 2018, 7:54:09 PM
+    Author     : user
+*/
+
+
+*{
+
+    -fx-primary : #2a2e37;
+    -fx-secondary: #ffff8d;
+    -fx-primary-text : #b2b2b2;
+}
+
+.root{
+    -fx-background-color: -fx-primary;
+}
+.button{
+    -fx-background-color: -fx-primary;
+    -fx-text-fill: -fx-primary-text;
+    -fx-border-color: -fx-secondary;
+}
+
+.custom-button{
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+}
+
+.text-field{
+    -fx-text-fill: -fx-primary-text;
+
+}
+
+.tab{
+    -fx-background-color: -fx-primary;
+    -fx-pref-width:330px;
+    -fx-pref-heigh:50px;
+}
+
+.tab-header-background{
+    -fx-background-color: -fx-primary;
+}
+
+.menu-bar{
+    -fx-background-color: -fx-primary;
+}
+
+.menu .label{
+    -fx-text-fill: -fx-primary-text;
+}
+
+.context-menu{
+    -fx-background-color: derive(-fx-primary,20%);
+}
+/*#addbookBtn{
+    .cbtn
+    -fx-background-color: red;
+}*/
+
